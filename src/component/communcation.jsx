@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import {io} from 'socket.io-client'
 
-const socket = io('https://frtug.site/api')
+const socket = io('http://localhost:5000')
 
 export default function Communication() {
     const [message,setMessage] = useState("");
