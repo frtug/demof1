@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './AuthStyles.css';
 import axios from 'axios';
 
-const API_BASE_URL = 'https://api.frtug.site';
+const API_BASE_URL = 'https://api.frtug.site/api';
 
 
 const Signup = () => {
