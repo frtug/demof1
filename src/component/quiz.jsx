@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './Quiz.css';
+import './quiz.css';
 import Communication from './communcation';
 
 const API_BASE_URL = 'http://localhost:5000';
