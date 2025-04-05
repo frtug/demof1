@@ -4,8 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  build: {
-    outDir: 'dist', // Ensure this matches Vercel's expected output
-    emptyOutDir: true,
-  }
+  base: process.env.VITE_BASE_PATH || "/demof1"
 })
