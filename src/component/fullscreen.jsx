@@ -1,5 +1,5 @@
 import React from 'react';
-import './Fullscreen.css';
+import './fullscreen.css';
 
 const FullscreenButton = () => {
   const toggleFullscreen = () => {
