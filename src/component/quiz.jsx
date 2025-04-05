@@ -3,7 +3,7 @@ import axios from 'axios';
 import './quiz.css';
 import Communication from './communcation';
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://api.frtug.site';
 
 
 const Quiz = () => {
